@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: Raleway-regular;
+    src: url(fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: Raleway-thin;
+    src: url(fonts/Raleway-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: Raleway-light;
+    src: url(fonts/Raleway-LightItalic.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: blue;
+}
+
+
+.logo{
+    padding-top: 50px;
+}
+
+.logo img{
+    height: calc(214px - 10px);
+    width: calc(248px - 15px);
+    padding: 15px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.banner{
+    width: 100%;
+    height: 650px;
+
+    background-color: black;
+
+    background-image: url(assets/images/banner.png);
+    background-repeat: no-repeat;
+    
+
+    border-bottom: 2px solid #33A8DB;
+}
+
+.banner-content{
+    font-family: Raleway;
+    font-style: bold;
+    color: rgb(51, 168, 219);
+    text-align: center;
+
+    background-image: linear-gradient(black, rgba(51, 168, 219, 0.2) 30%, black);
+    background-repeat: no-repeat;
+    
+}
+
+.banner-content h1 {
+    background-image: linear-gradient(to bottom , #33A8DB 20%, #1472B7);            
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 8px 0;
+    
+    color: transparent; 
+}
+
+.banner-content p {
+    text-align: center;
+    font-family: Raleway-regular;
+    font-size: 20px;
+    font-style: none;
+    color: white;
+    width: 510px;
+    height: 46px;
+    position: relative;
+    white-space: pre-wrap;
+    padding: 8px 0;
+    
+    margin: 0 auto;
+}
+
+button{
+    background-image: linear-gradient(to bottom , #33A8DB 20%, #1472B7);            
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    font-family: Raleway;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: transparent;
+
+    margin-top: 20px;
+    margin-bottom: 85px;
+    padding: 19px 91px;
+
+    border-color: #33A8DB;
+    border-width: 3px;
+}
+
